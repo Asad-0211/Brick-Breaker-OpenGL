@@ -1,0 +1,16 @@
+# Compiled Object files
+*.o
+*.out
+*.exe
+*.app
+
+# IDE / Editor directories
+.settings/
+.cproject
+.project
+.vscode/
+*.suo
+
+# Local Game Data
+High_Score.txt
+history.txt
