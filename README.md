@@ -14,4 +14,11 @@ A custom 2D arcade physics engine built entirely in C++ utilizing the legacy Ope
 *   **Build System:** Make
 
 **Installation & Compilation**
-*(Build instructions will be added here once the Makefile is updated)*
+
+This project utilizes `make` and requires standard OpenGL, GLUT, and FreeImage libraries. A shell script is provided for rapid dependency installation on Linux/WSL environments.
+
+**1. Install Dependencies**
+Execute the included shell script to install required graphics libraries:
+```bash
+chmod +x install-libraries.sh
+./install-libraries.shcls
